@@ -1,25 +1,87 @@
 .hero {
+    padding-top: 170px;
+    background: linear-gradient(102.5deg, #FFF6DA 0%, #FFDEF2 100%);
+
     .container {
         .row {
-            .col-12{
-.col-8 {
-    &_title {
-        h1 {
-            font-family: 'Raleway';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 56px;
-            line-height: 120%;
-        }
-        h3 {
-            font-family: 'Raleway';
-font-style: normal;
-font-weight: 500;
-font-size: 32px;
-line-height: 38px
-        }
-    }
-}
+            padding-bottom: 60px;
+
+            .col-12 {
+
+                .hero__title {
+                    h1 {
+                        font-family: 'Raleway';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 56px;
+                        line-height: 120%;
+                    }
+
+                    h3 {
+                        font-family: 'Raleway';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 32px;
+                        line-height: 38px;
+                        margin-bottom: 70px;
+
+                    }
+
+                    .hero__btn_title_seach {
+                        width: 309px;
+                        height: 64px;
+
+                        background: #FFFFFF;
+                        border-radius: 32px;
+                        margin-bottom: 20px;
+                    }
+
+                    .hero__btn_title_city {
+                        width: 463px;
+                        height: 64px;
+
+                        background: #FFFFFF;
+                        border-radius: 32px;
+                    }
+                }
+
+
+                .col-4 {
+                    div {
+                        margin-bottom: 43px;
+                    }
+
+                    .hero__btn_search {
+                        button {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            padding: 10px 20px;
+
+
+                            width: 386px;
+                            height: 64px;
+                            background: #1E3173;
+                            border-radius: 32px;
+                            font-family: 'Roboto';
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 26px;
+                            line-height: 24px;
+                            /* identical to box height, or 92% */
+
+                            display: flex;
+                            align-items: center;
+                            text-align: center;
+
+                            /* Colors / White */
+
+                            color: #FFFFFF;
+
+                        }
+                    }
+                }
             }
         }
     }
