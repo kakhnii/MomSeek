@@ -1,74 +1,119 @@
 .header {
-    background-color: rgb(194, 41, 41);
-    color: #fff;
+    background-color: rgba(194, 41, 41, 0);
+    color: rgb(0, 0, 0);
+    padding: 44px 0;
 
-    &__burger {
-        position: relative;
 
-        span {
-            height: 2px;
-            background-color: white;
+    .container {
+        .header_lang {
+            cursor: pointer;
+            align-items: center;
+            padding: 0 32px;
+
+            a {
+                text-decoration: none;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 24px;
+
+
+                display: flex;
+                align-items: center;
+                text-align: center;
+
+                color: #000000;
+            }
+
+            img {
+                width: 20px;
+                height: 20px;
+                margin-right: 5px;
+            }
+
+            .lang_down {
+                width: 12px;
+                height: 12px;
+                margin-left: 5px;
+            }
         }
 
-        :first-child {
-            position: absolute;
-            top: 0;
-            left: 0;
-            transition: 0.8s;
-        }
+        .header__nav {
+            white-space: nowrap;
 
-        :last-child {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            transition: 0.8s;
-        }
+            ul {
+                li {
 
-        :nth-child(2) {
-            position: absolute;
-            left: 0;
-            top: calc(50%-1px);
-            transition: 0.8s;
-        }
+                    .btn1 {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 10px 20px;
+                        width: 245px;
+                        height: 42px;
+                        background: #1E3173;
+                        border-radius: 24px;
+                        text-decoration: none;
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 18px;
+                        line-height: 24px;
 
-        &.active {}
 
-        :first-child {
-            transform: rotate(45deg);
+                        display: flex;
+                        align-items: center;
+                        text-align: center;
 
-        }
 
-        :last-child {
+                        margin-right: 12px;
+                        color: #FFFFFF;
+                    }
 
-            transform: rotate(-45deg);
-        }
+                    .btn2 {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 10px 20px;
+                        width: 164px;
+                        height: 42px;
+                        border: 2px solid #1E3173;
+                        border-radius: 24px;
+                        text-decoration: none;
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 18px;
+                        line-height: 24px;
+                        align-items: center;
+                        text-align: center;
 
-        :nth-child(2) {
-            display: none;
+                        color: #1E3173;
+                        margin-right: 30px;
+                    }
 
-        }
-    }
-}
+                    .btn3 {
 
-.mobile {
-    position: fixed;
-    top: 38px;
-    left: 0;
-    height: 100vh;
-    width: 100%;
-    background-color: red;
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 18px;
+                        line-height: 24px;
 
-    &__menu {
-        ul {
-            margin: 0;
-            padding: 0;
+                        align-items: center;
+                        text-align: center;
 
-            li {
-                list-style: none;
+                        color: #000000;
+                        text-decoration: none;
 
-                a {
-                    color: white;
-                    text-decoration: none;
+                        img {
+                            margin-right: 10px;
+                        }
+                    }
+
                 }
             }
         }
