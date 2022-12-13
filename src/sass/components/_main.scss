@@ -1,0 +1,254 @@
+.invent {
+    .container {
+        .inventory {
+            width: 100%;
+            height: 580px;
+            background-image: url(../../img/inventpng.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-top: 74px;
+
+            @media screen and(max-width:480px) {
+                background-image: none;
+                background-color: #1E3173;
+            }
+
+            h5 {
+                font-family: 'Raleway';
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 100%;
+                color: #FFFFFF;
+                margin: 0 0 38px 50px;
+                padding-top: 55px;
+            }
+
+            h1 {
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 800;
+                font-size: 64px;
+                line-height: 100%;
+                color: #FFFFFF;
+                margin-left: 55px;
+
+                @media screen and(max-width:480px) {
+                    font-family: 'Raleway';
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 28px;
+                    line-height: 100%;
+
+                }
+
+            }
+
+            .col-12 {
+                margin-top: 120px;
+
+                @media screen and(max-width:480px) {
+                    margin-top: 20px;
+
+                }
+
+                .col-4 {
+
+                    width: 352.77px;
+                    height: 139px;
+
+                    background: #1E3173;
+                    border-radius: 12px;
+
+                    @media screen and(max-width:480px) {
+                        background: #ffffff;
+
+                    }
+
+                    .col-3 {
+
+
+                        h3 {
+                            white-space: nowrap;
+                            padding: 18px 0 18px 18px;
+                            font-family: 'Raleway';
+                            font-style: normal;
+                            font-weight: 800;
+                            font-size: 24px;
+                            line-height: 100%;
+                            color: #ffffff;
+
+                            @media screen and(max-width:480px) {
+
+                                color: #1E3173;
+                            }
+                        }
+
+                    }
+
+                    .col-3 {
+                        max-width: 100%;
+                        align-items: center;
+
+                        img {}
+                    }
+
+                    p {
+                        margin: 0 33px 23px 23px;
+                        font-family: 'Raleway';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 120%;
+
+
+                        color: #FFFFFF;
+
+                        @media screen and(max-width:480px) {
+
+                            color: #1E3173;
+                        }
+                    }
+                }
+
+                @media screen and(max-width:800px) {
+                    flex-wrap: wrap;
+
+                }
+            }
+        }
+    }
+}
+
+
+
+.blog {
+    background: linear-gradient(102.5deg, #FFF6DA 0%, #FFDEF2 100%);
+
+    &__title {
+        padding-top: 64px;
+
+        .col-12 {
+            .col-6 {
+                h1 {
+                    font-family: 'Raleway';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 48px;
+                    line-height: 100%;
+                }
+            }
+
+            .col-6 {
+                div {
+                    justify-content: flex-end;
+
+                    img {
+                        margin-left: 20px;
+                    }
+                }
+            }
+        }
+
+        .pages {
+            li {
+                list-style: none;
+
+                a {
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
+                    text-decoration: none;
+                    color: #1E3173;
+                    margin-left: 26px;
+                }
+
+            }
+        }
+    }
+
+    &__cards {
+        .row {
+            .col-12 {
+                flex-wrap: wrap;
+
+                .col-4 {
+                    img {
+                        margin-top: 35px;
+                        margin-bottom: 10px;
+                        border-radius: 10px;
+                    }
+
+                    h3 {
+                        font-family: 'Raleway';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 24px;
+                        line-height: 28px;
+
+                        color: #000000;
+                    }
+
+                    p {
+                        margin-top: 8px;
+                        font-family: 'Raleway';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 16px;
+
+                        color: #AAAAAA;
+                    }
+
+                    button {
+                        margin-right: 12px;
+                        margin-top: 20px;
+                        width: 76px;
+                        height: 28px;
+                        font-family: 'Raleway';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 16px;
+                        background-color: #ffffff00;
+                        color: #1E3173;
+                        border: 1px solid #1E3173;
+                        border-radius: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    &__button-about {
+        button {
+            justify-content: center;
+            align-items: center;
+            padding: 10px 20px;
+            width: 386px;
+            height: 64px;
+            border: 2px solid #1E3173;
+            border-radius: 32px;
+            background-color: #1e307300;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 32px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+
+            color: #1E3173;
+            cursor: pointer;
+margin-top: 55px;
+            img {
+                padding-left: 10px;
+            }
+        }
+    }
+}

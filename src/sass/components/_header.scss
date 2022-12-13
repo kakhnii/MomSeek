@@ -8,7 +8,7 @@
 
     .container {
         .row {
-       
+
 
             .header_lang {
                 cursor: pointer;
@@ -29,6 +29,15 @@
                     text-align: center;
 
                     color: #000000;
+
+                    @media screen and(max-width:480px) {
+                        width: 51px;
+                        height: 22px;
+
+                        background: #FFFFFF;
+                        border-radius: 12px;
+
+                    }
                 }
 
                 img {
@@ -75,6 +84,11 @@
 
                             margin-right: 12px;
                             color: #FFFFFF;
+                            @media screen and(max-width:480px) {
+                                display: none;
+                                
+                            }
+                           
                         }
 
                         .btn2 {
@@ -98,6 +112,11 @@
 
                             color: #1E3173;
                             margin-right: 30px;
+
+                            @media screen and(max-width:480px) {
+                                display: none;
+                                
+                            }
                         }
 
                         .btn3 {
