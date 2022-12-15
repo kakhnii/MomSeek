@@ -396,6 +396,7 @@
 .comunity {
     &__questions {
         min-width: 50%;
+        margin-right: 60px;
 
         h1 {
             font-family: 'Raleway';
@@ -404,7 +405,7 @@
             font-size: 48px;
             line-height: 100%;
             /* identical to box height, or 48px */
-
+            margin-bottom: 10px;
 
             color: #000000;
         }
@@ -417,12 +418,25 @@
             line-height: 100%;
             /* identical to box height, or 24px */
 
+            margin-bottom: 38px;
+            color: #000000;
+        }
+
+        h3 {
+            margin-top: 16px;
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 100%;
+            /* identical to box height, or 28px */
+
 
             color: #000000;
         }
 
         .comunity__line {
-            width: 50%;
+
             height: 3px;
             border: 3px solid #1E3173;
         }
@@ -430,9 +444,40 @@
 
     .comunity__questions_text {
         margin: 42px 0;
+
+        .data {
+            margin-bottom: 0;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 120%;
+            /* identical to box height, or 17px */
+
+            display: flex;
+            align-items: center;
+
+            color: #000000;
+        }
+
+        p {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 120%;
+            /* or 26px */
+
+            display: flex;
+            align-items: center;
+
+            color: #1E3173;
+
+        }
     }
 
     &__button-about {
+        margin-bottom: 100px;
         button {
             justify-content: center;
             align-items: center;
@@ -453,7 +498,7 @@
 
             color: #1E3173;
             cursor: pointer;
-            margin-top: 55px;
+          
 
             img {
                 padding-left: 10px;
@@ -463,17 +508,50 @@
 
     &__coments {
         min-width: 50%;
+        margin-top: 119px;
 
-        .comunity__line {
-            width: 50%;
-            height: 3px;
-            border: 3px solid #1E3173;
-        }
+        .row {
+          
+            .comunity__line {
 
-        img {
-            border-radius: 50%;
-            width: 60px;
-            height: 30px;
+                height: 3px;
+                border: 3px solid #1E3173;
+            }
+
+            h3 {
+                margin-top: 16px;
+                margin-bottom: 29px;
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 28px;
+                line-height: 100%;
+
+
+                color: #000000;
+            }
+
+            p {
+                margin: 0 15px;
+                margin-bottom: 56px;
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 120%;
+              
+
+
+                color: #000000;
+            }
+
+            img {
+                border-radius: 50%;
+                width: 40px;
+    height: 30px;
+    margin-right: 9px;
+            }
+
         }
     }
 }
