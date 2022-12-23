@@ -65,8 +65,8 @@
                 }
 
                 div {
-                   
-                    
+
+
 
                     img {
 
@@ -95,8 +95,8 @@
                     color: #000000;
                     align-items: center;
                     border: 2px solid white;
-
-                    @media screen and(max-width:770px) {
+                   
+                    @media screen and(max-width:1200px) {
                         width: 80vw;
 
                     }
@@ -136,7 +136,7 @@
                     align-items: center;
                     border: 2px solid white;
 
-                    @media screen and(max-width:770px) {
+                    @media screen and(max-width:1200px) {
                         width: 80vw;
 
                     }
@@ -176,10 +176,14 @@
                         text-align: center;
                         color: #FFFFFF;
 
-                        @media screen and(max-width:770px) {
-                            width: 100%;
+                        
+                    }
+                    @media screen and(max-width:1200px) {
+                    
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
 
-                        }
                     }
                 }
 
